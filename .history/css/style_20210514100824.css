@@ -1,0 +1,88 @@
+    @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+    @import url(https://fonts.googleapis.com/css2?family=Playfair+Display:wght@100;200;300;400;500;600;800;900&display=swap);
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto', 'Regular';
+        scroll-behavior: smooth;
+    }
+    
+    p {
+        font-weight: 300;
+        color: #111;
+    }
+    
+    .banner {
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url('../image/banner.png');
+        background-size: cover;
+    }
+    
+    .banner .content {
+        max-width: 900px;
+        text-align: left;
+    }
+    
+    .banner .content p.title {
+        font-size: 20px;
+        opacity: 100%;
+        text-transform: uppercase;
+        font-weight: 400;
+        letter-spacing: 6px;
+        line-height: 20px;
+        color: #ffffff;
+    }
+    
+    .banner .content h3 {
+        font-family: 'Playfair Display', serif;
+        font-size: 74px;
+        font-style: bold;
+        font-weight: 700;
+        color: #ffffff;
+        text-align: left;
+    }
+    
+    .banner .content h3 strong {
+        color: #118575;
+    }
+    
+    .banner .content .content-contact,
+    p {
+        display: flex;
+        color: #cacaca;
+        font-size: 20px;
+        font-style: bold;
+        font-weight: 500;
+    }
+    
+    .banner .content .content-contact p span {
+        padding: 0px 15px;
+        font-weight: 400;
+        font-style: normal;
+        color: #cacaca;
+    }
+    
+    .banner .content .content-contact .gachgiua {
+        padding-right: 15px;
+        margin: 0px 22px;
+    }
+    
+    .banner .content .input input {
+        width: 150px;
+        height: 50px;
+        border: 1px solid;
+        /* opacity: 40%; */
+        color: #ffffff;
+        border-color: #cacaca;
+        text-transform: uppercase;
+    }
+    
+    .banner .content .input input::-ms-value {
+        color: red;
+    }
