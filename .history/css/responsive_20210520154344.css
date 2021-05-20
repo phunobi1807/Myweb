@@ -116,13 +116,19 @@
                                                       .thietketinhte {
                                                           display: none;
                                                       }
-                                                      .sodo ul.nav-tabs {
-                                                          justify-content: space-evenly;
-                                                          flex-direction: row;
-                                                          margin: 20px 0px 0px 0px;
+                                                      .introduce .space-live .right-image {
+                                                          padding: 0px;
                                                       }
-                                                      footer .contact .form-contact .title-form .input input {
-                                                          padding: 10px 41px;
+                                                      .introduce .space-live .right-image .chiso ul {
+                                                          display: none;
+                                                      }
+                                                      .introduce .space-live .image {
+                                                          height: 100%;
+                                                          background-size: 100%;
+                                                      }
+                                                      #tongquan {
+                                                          display: unset;
+                                                          flex-direction: unset;
                                                       }
                                                   }
                                                   /* END  */

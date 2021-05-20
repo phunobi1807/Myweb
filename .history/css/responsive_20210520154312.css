@@ -1,133 +1,133 @@
                                                   /* Ipad xoay ngang  */
-                                                  
-                                                  @media (min-width:1023px) and (max-width:1024px) {
-                                                      header .navigation {
-                                                          top: 8px;
-                                                          left: 26px;
-                                                      }
-                                                      header .navigation li {
-                                                          margin: unset;
-                                                          padding: 0px 12px;
-                                                      }
-                                                      header.sticky ul {
-                                                          margin-top: 0px;
-                                                      }
-                                                      .introduce .overview-project .left-image {
-                                                          padding: 88px 45px;
-                                                          margin-left: 0px;
-                                                      }
-                                                      footer .info img {
-                                                          height: 100%;
-                                                          padding: 26px 0px;
-                                                      }
-                                                      footer .contact .image-contact {
-                                                          display: none;
-                                                      }
-                                                      footer .contact .form-contact .title-form {
-                                                          padding: 0px;
-                                                          margin-left: 0px;
-                                                      }
-                                                      footer .contact .form-contact {
-                                                          width: 100%;
-                                                          padding: 15px;
-                                                      }
-                                                      footer .info .border-center {
-                                                          display: none;
-                                                      }
-                                                      .hinhanh .listhinhanh .container {
-                                                          width: 100%;
-                                                      }
-                                                      .hinhanh .title h1 {
-                                                          padding-top: 0px;
-                                                      }
-                                                      footer .info {
-                                                          flex-direction: column;
-                                                          align-items: center;
-                                                      }
-                                                      .matbangchung {
-                                                          display: none;
-                                                      }
-                                                      .thietkecanho {
-                                                          display: none;
-                                                      }
-                                                      .thietketinhte {
-                                                          display: none;
-                                                      }
+                                              
+                                              @media (min-width:1023px) and (max-width:1024px) {
+                                                  header .navigation {
+                                                      top: 8px;
+                                                      left: 26px;
                                                   }
-                                                  /* END  */
-                                                  /* Ipad doc  */
-                                                  
-                                                  @media (min-width:767px) and (max-width:768px) {
-                                                      .introduce .space-live .image {
-                                                          margin-left: 8px;
-                                                      }
-                                                      #tongquan {
-                                                          display: flex;
-                                                          flex-direction: column-reverse;
-                                                      }
-                                                      .introduce .overview-project .left-image {
-                                                          padding: 88px 35px;
-                                                          margin-left: 0px;
-                                                      }
-                                                      .sodo .left,
-                                                      .image {
-                                                          padding: 100px 0px;
-                                                      }
-                                                      .sodo .tab-content .tab-2 {
-                                                          justify-content: space-around;
-                                                      }
-                                                      .sodo .tab-content .tab-1 {
-                                                          justify-content: space-around;
-                                                      }
-                                                      footer .info .border-center {
-                                                          display: none;
-                                                      }
-                                                      footer .info {
-                                                          flex-direction: column;
-                                                          align-items: center;
-                                                      }
-                                                      footer .info img {
-                                                          height: 100%;
-                                                          padding: 26px 0px;
-                                                      }
-                                                      footer .contact .image-contact {
-                                                          display: none;
-                                                      }
-                                                      footer .contact .form-contact .title-form {
-                                                          padding: 0px;
-                                                          margin-left: 0px;
-                                                      }
-                                                      footer .contact .form-contact {
-                                                          width: 100%;
-                                                          padding: 15px;
-                                                      }
-                                                      .hinhanh .listhinhanh .container {
-                                                          width: 100%;
-                                                      }
-                                                      .hinhanh .title h1 {
-                                                          padding-top: 0px;
-                                                      }
-                                                      .matbangchung {
-                                                          display: none;
-                                                      }
-                                                      .thietkecanho {
-                                                          display: none;
-                                                      }
-                                                      .thietketinhte {
-                                                          display: none;
-                                                      }
-                                                      .sodo ul.nav-tabs {
-                                                          justify-content: space-evenly;
-                                                          flex-direction: row;
-                                                          margin: 20px 0px 0px 0px;
-                                                      }
-                                                      footer .contact .form-contact .title-form .input input {
-                                                          padding: 10px 41px;
-                                                      }
+                                                  header .navigation li {
+                                                      margin: unset;
+                                                      padding: 0px 12px;
+                                                  }
+                                                  header.sticky ul {
+                                                      margin-top: 0px;
+                                                  }
+                                                  .introduce .overview-project .left-image {
+                                                      padding: 88px 45px;
+                                                      margin-left: 0px;
+                                                  }
+                                                  footer .info img {
+                                                      height: 100%;
+                                                      padding: 26px 0px;
+                                                  }
+                                                  footer .contact .image-contact {
+                                                      display: none;
+                                                  }
+                                                  footer .contact .form-contact .title-form {
+                                                      padding: 0px;
+                                                      margin-left: 0px;
+                                                  }
+                                                  footer .contact .form-contact {
+                                                      width: 100%;
+                                                      padding: 15px;
+                                                  }
+                                                  footer .info .border-center {
+                                                      display: none;
+                                                  }
+                                                  .hinhanh .listhinhanh .container {
+                                                      width: 100%;
+                                                  }
+                                                  .hinhanh .title h1 {
+                                                      padding-top: 0px;
+                                                  }
+                                                  footer .info {
+                                                      flex-direction: column;
+                                                      align-items: center;
+                                                  }
+                                                  .matbangchung {
+                                                      display: none;
+                                                  }
+                                                  .thietkecanho {
+                                                      display: none;
+                                                  }
+                                                  .thietketinhte {
+                                                      display: none;
+                                                  }
+                                              }
+                                              /* END  */
+                                              /* Ipad doc  */
+                                              
+                                              @media (min-width:767px) and (max-width:768px) {
+                                                  .introduce .space-live .image {
+                                                      margin-left: 8px;
+                                                  }
+                                                  #tongquan {
+                                                      display: flex;
+                                                      flex-direction: column-reverse;
+                                                  }
+                                                  .introduce .overview-project .left-image {
+                                                      padding: 88px 35px;
+                                                      margin-left: 0px;
+                                                  }
+                                                  .sodo .left,
+                                                  .image {
+                                                      padding: 100px 0px;
+                                                  }
+                                                  .sodo .tab-content .tab-2 {
+                                                      justify-content: space-around;
+                                                  }
+                                                  .sodo .tab-content .tab-1 {
+                                                      justify-content: space-around;
+                                                  }
+                                                  footer .info .border-center {
+                                                      display: none;
+                                                  }
+                                                  footer .info {
+                                                      flex-direction: column;
+                                                      align-items: center;
+                                                  }
+                                                  footer .info img {
+                                                      height: 100%;
+                                                      padding: 26px 0px;
+                                                  }
+                                                  footer .contact .image-contact {
+                                                      display: none;
+                                                  }
+                                                  footer .contact .form-contact .title-form {
+                                                      padding: 0px;
+                                                      margin-left: 0px;
+                                                  }
+                                                  footer .contact .form-contact {
+                                                      width: 100%;
+                                                      padding: 15px;
+                                                  }
+                                                  .hinhanh .listhinhanh .container {
+                                                      width: 100%;
+                                                  }
+                                                  .hinhanh .title h1 {
+                                                      padding-top: 0px;
+                                                  }
+                                                  .matbangchung {
+                                                      display: none;
+                                                  }
+                                                  .thietkecanho {
+                                                      display: none;
+                                                  }
+                                                  .thietketinhte {
+                                                      display: none;
+                                                  }
+                                                  .introduce .space-live .right-image {
+                                                      padding: 0px;
+                                                  }
+                                                  .introduce .space-live .right-image .chiso ul {
+                                                      display: none;
+                                                  }
+                                                  .introduce .space-live .image {
+                                                      height: 100%;
+                                                      background-size: 100%;
                                                   }
                                                   /* END  */
                                                   /* Iphone X dọc  */
-                                                  
                                                   @media (min-width:374px) and (max-width:375px) {
                                                       .banner .content .content-contact,
                                                       p {
@@ -233,7 +233,6 @@
                                                   }
                                                   /* END  */
                                                   /* Iphone X xoay ngang  */
-                                                  
                                                   @media (min-width:811px) and (max-width:812px) {
                                                       .banner {
                                                           min-height: 150vh;
@@ -311,7 +310,6 @@
                                                   }
                                                   /* END  */
                                                   /* Iphone 6 7 8 Plus dọc  */
-                                                  
                                                   @media (min-width:413px) and (max-width:414px) {
                                                       .banner .content .content-contact,
                                                       p {
@@ -415,7 +413,6 @@
                                                   }
                                                   /* END  */
                                                   /* Iphone 678 Plus xoay ngang  */
-                                                  
                                                   @media (min-width:735px) and (max-width:736px) {
                                                       .banner .content .content-contact,
                                                       p {
@@ -503,7 +500,6 @@
                                                   }
                                                   /* END  */
                                                   /* Iphone 678 xoay ngang  */
-                                                  
                                                   @media (min-width:666px) and (max-width:667px) {
                                                       .banner .content .content-contact,
                                                       p {
@@ -590,7 +586,6 @@
                                                           display: none;
                                                       }
                                                   }
-                                                  
                                                   @media (max-width:991px) {
                                                       header,
                                                       header.sticky {
@@ -661,7 +656,6 @@
                                                           padding-top: 0px;
                                                       }
                                                   }
-                                                  
                                                   @media (max-width: 480px) {
                                                       .banner .content h3 {
                                                           font-size: 2.2em;

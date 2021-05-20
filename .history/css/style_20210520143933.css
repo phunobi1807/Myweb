@@ -850,7 +850,6 @@ header .navigation li a:hover {
     width: 100%;
     height: auto;
     margin: 5px 5px;
-    border-radius: 10px 0px 10px 0px;
 }
 
 @media only screen and (max-width:768p) {
@@ -861,20 +860,7 @@ header .navigation li a:hover {
 
 @media only screen and (max-width:450px) {
     .hinhanh .listhinhanh .container {
-        column-count: 1;
-    }
-    .hinhanh .listhinhanh .container .grid-item img {
-        margin: 0px;
-    }
-    .hinhanh .container {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    .hinhanh .listhinhanh .container .grid-item {
-        margin: 10px 0px;
-    }
-    h1 {
-        text-align: center;
+        column-count: 2;
     }
 }
 

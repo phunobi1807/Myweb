@@ -17,7 +17,7 @@
             <img src="./image/logo-banner.png" alt="logo">
         </a>
         <div class="menuToggle" onclick="toggleMenu"></div>
-        <ul class="navigation" id="toggle">
+        <ul class="navigation">
             <li><a href="index.html" onclick="toggleMenu">Trang chủ</a></li>
             <li><a href="#tongquan" onclick="toggleMenu">Tổng quan</a></li>
             <li><a href="#vitri" onclick="toggleMenu">Vị trí</a></li>
@@ -41,7 +41,7 @@
             </div>
         </div>
     </section>
-    <section class="price-apartment mt-5" id="banggia">
+    <section class="price-apartment mt-5" style="display: none !important;" id="banggia">
         <div class="container text-center">
             <div class="list-price-apartment">
                 <h1>giá bán và thuê căn hộ <span>jamila khang điền</span></h1>
@@ -209,7 +209,8 @@
                             <td>STT</td>
                             <td>loại căn</td>
                             <td>mã căn</td>
-                            <td colspan="2">diện tích</td>
+                            <td>diện tích
+                            </td>
                             <td>giá thuê</td>
                             <td>nội thất</td>
                         </tr>
@@ -349,10 +350,10 @@
     <section class="introduce mt-5">
         <div class="container-fluid">
             <div class="row space-live">
-                <div class="col-lg-6 col-md-6 pr-15">
+                <div class="col-lg-6 pr-15">
                     <div class="image" style="background-image: url(./image/space-live.png);"></div>
                 </div>
-                <div class="col-lg-6 col-md-6 pl-15">
+                <div class="col-lg-6 pl-15">
                     <div class="right-image">
                         <h5>không gian sống lý tưởng</h5>
                         <h1>khởi đầu cho mọi <br> hành trình tươi đẹp</h1>
@@ -386,7 +387,7 @@
                 </div>
             </div>
             <div class="row overview-project" id="tongquan">
-                <div class="col-lg-5 col-md-7 pl-15">
+                <div class="col-lg-5 pl-15">
                     <div class="left-image">
                         <h5>tổng quan dự án</h5>
                         <h1>jamila khang điền</h1>
@@ -448,7 +449,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-7 col-md-5 pr-15">
+                <div class="col-lg-7 pr-15">
                     <div class="image" style="background-image: url(./image/overview-project.png);"></div>
                 </div>
             </div>
@@ -487,6 +488,7 @@
                                     <a class="nav-link " href="#menu1">Tiện ích ngoại khu</a>
                                 </li>
                             </ul>
+
                             <!-- Tab panes -->
                             <div class="tab-content mb-3">
                                 <div id="home" class="container tab-pane active"><br>
@@ -594,7 +596,7 @@
             </div>
         </div>
     </section>
-    <section class="matbangchung" id="duan">
+    <section class="matbangchung" style="display: none !important;" id="duan">
         <div class="container">
             <div class="title">
                 <h1>mặt bằng chung dự án <b>jamila khang điền</b></h1>
@@ -634,7 +636,7 @@
             </div>
         </div>
     </section>
-    <section class="thietkecanho">
+    <section class="thietkecanho" style="display: none !important;">
         <div class="container">
             <div class="title">
                 <h1>thiết kế căn hộ - <b>jamila khang điền</b></h1>
@@ -668,84 +670,86 @@
         </div>
 
     </section>
-    <section class="thietketinhte">
-        <div class="container">
-            <div class="title">
-                <h1>thiết kế tinh tế <b>& hiện đại</b></h1>
-                <img src="./image/gachgiua.png" alt="">
-                <h6> Không gian sống thoải mái</h6>
-            </div>
-            <div class="border-1">
-                <div class="content content-1">
-                    <div class="img" style="background-image: url('./image/thietketinhte1.png');"></div>
-                    <p><b>Jamila Khang Điền</b> được quy hoạch một cách đồng bộ theo mô hình kiến trúc xanh và hiện đại của Châu Âu, đồng thời tạo nên sự giao thoa giữa không gian sống ở bên trong căn hộ và môi trường sống bên ngoài bằng môi trường sống
-                        xanh, Jamila Khang Điền hứa hẹn là một nơi sinh sống lý tưởng của nhiều gia đình.</p>
+    <section>
+        <div class="thietketinhte" style="display: none !important;">
+            <div class="container">
+                <div class="title">
+                    <h1>thiết kế tinh tế <b>& hiện đại</b></h1>
+                    <img src="./image/gachgiua.png" alt="">
+                    <h6> Không gian sống thoải mái</h6>
                 </div>
-                <div class="content content-2">
-                    <p>Phòng ngủ nhỏ được thiết kế giường queensize, tông màu trắng be sang trọng. Căn phòng toát lên vẻ đẹp tươi trẻ, tràn đầy sức sống với cách phối hợp những gam màu như trắng, nâu. Đồ dùng khiến không gian thêm phần sang trọng. Bức tường
-                        đầu giường tạo nên điểm nhấn cho không gian.</p>
-                    <div class="img" style="background-image: url('./image/thietketinhte2.png');"></div>
+                <div class="border-1">
+                    <div class="content content-1">
+                        <div class="img" style="background-image: url('./image/thietketinhte1.png');"></div>
+                        <p><b>Jamila Khang Điền</b> được quy hoạch một cách đồng bộ theo mô hình kiến trúc xanh và hiện đại của Châu Âu, đồng thời tạo nên sự giao thoa giữa không gian sống ở bên trong căn hộ và môi trường sống bên ngoài bằng môi trường sống
+                            xanh, Jamila Khang Điền hứa hẹn là một nơi sinh sống lý tưởng của nhiều gia đình.</p>
+                    </div>
+                    <div class="content content-2">
+                        <p>Phòng ngủ nhỏ được thiết kế giường queensize, tông màu trắng be sang trọng. Căn phòng toát lên vẻ đẹp tươi trẻ, tràn đầy sức sống với cách phối hợp những gam màu như trắng, nâu. Đồ dùng khiến không gian thêm phần sang trọng. Bức
+                            tường đầu giường tạo nên điểm nhấn cho không gian.</p>
+                        <div class="img" style="background-image: url('./image/thietketinhte2.png');"></div>
 
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="./image/thietketinhtelogo.png" alt="">
                 </div>
             </div>
-            <div class="image">
-                <img src="./image/thietketinhtelogo.png" alt="">
-            </div>
-        </div>
         </div>
     </section>
-    <section class="hinhanh mt-5" id="hinhanh">
-        <div class="container">
-            <div class="title">
-                <h1>hình ảnh <b>thực tế dự án</b></h1>
-                <img src="./image/gachgiua.png" alt="">
-            </div>
-            <div class="listhinhanh">
-                <div class="container">
-                    <div class="grid-item">
-                        <a data-fancybox="gallery" href="./image/img1.png"><img src="./image/img1.png"></a>
-                    </div>
-                    <div class="grid-item">
-                        <a data-fancybox="gallery" href="./image/img4.png"><img src="./image/img4.png"></a>
-                    </div>
+    <section>
+        <div class="hinhanh mt-5" id="hinhanh">
+            <div class="container">
+                <div class="title">
+                    <h1>hình ảnh <b>thực tế dự án</b></h1>
+                    <img src="./image/gachgiua.png" alt="">
+                </div>
+                <div class="listhinhanh">
+                    <div class="container">
+                        <div class="grid-item">
+                            <a data-fancybox="gallery" href="./image/img1.png"><img src="./image/img1.png"></a>
+                        </div>
+                        <div class="grid-item">
+                            <a data-fancybox="gallery" href="./image/img4.png"><img src="./image/img4.png"></a>
+                        </div>
 
-                    <div class="grid-item">
-                        <a data-fancybox="gallery" href="./image/img7.png"><img src="./image/img7.png"></a>
+                        <div class="grid-item">
+                            <a data-fancybox="gallery" href="./image/img7.png"><img src="./image/img7.png"></a>
+                        </div>
+
+                        <div class="grid-item">
+                            <a data-fancybox="gallery" href="./image/img2.png"><img src="./image/img2.png"></a>
+                        </div>
+
+                        <div class="grid-item">
+                            <a data-fancybox="gallery" href="./image/img5.png"><img src="./image/img5.png"></a>
+                        </div>
+
+                        <div class="grid-item">
+                            <a data-fancybox="gallery" href="./image/img8.png"><img src="./image/img8.png"></a>
+                        </div>
+
+                        <div class="grid-item">
+                            <a data-fancybox="gallery" href="./image/img3.png"><img src="./image/img3.png"></a>
+                        </div>
+
+                        <div class="grid-item">
+                            <a data-fancybox="gallery" href="./image/img6.png"><img src="./image/img6.png"></a>
+                        </div>
+
+                        <div class="grid-item">
+                            <a data-fancybox="gallery" href="./image/img9.png"><img src="./image/img9.png"></a>
+                        </div>
+
+
+
                     </div>
-
-                    <div class="grid-item">
-                        <a data-fancybox="gallery" href="./image/img2.png"><img src="./image/img2.png"></a>
-                    </div>
-
-                    <div class="grid-item">
-                        <a data-fancybox="gallery" href="./image/img5.png"><img src="./image/img5.png"></a>
-                    </div>
-
-                    <div class="grid-item">
-                        <a data-fancybox="gallery" href="./image/img8.png"><img src="./image/img8.png"></a>
-                    </div>
-
-                    <div class="grid-item">
-                        <a data-fancybox="gallery" href="./image/img3.png"><img src="./image/img3.png"></a>
-                    </div>
-
-                    <div class="grid-item">
-                        <a data-fancybox="gallery" href="./image/img6.png"><img src="./image/img6.png"></a>
-                    </div>
-
-                    <div class="grid-item">
-                        <a data-fancybox="gallery" href="./image/img9.png"><img src="./image/img9.png"></a>
-                    </div>
-
-
 
                 </div>
-
             </div>
         </div>
-        </div>
     </section>
-    <footer class="mt-5">
+    <footer class="mt-5" style="display: none !important;">
         <div class="container">
             <div class="info">
                 <img src="./image/logoft.png" alt="">
@@ -776,13 +780,11 @@
                     <h3>Form liên hệ</h3>
                     <p>Đăng kí ngay để cập nhật những thông tin mới nhất & bảng báo giá chính xác từ chúng tôi</p>
                     <div class="input d-flex flex-column">
-                        <div class="flex-row">
-                            <input type="text" placeholder="Họ và tên">
-                            <input type="text" placeholder="Số điện thoại">
-                            <input type="email" name="Email" id="Email" placeholder="Email">
-                        </div>
+                        <input type="text" placeholder="Họ và tên">
+                        <input type="text" placeholder="Số điện thoại">
+                        <input type="email" name="Email" id="Email" placeholder="Email">
                         <textarea name="mess" id="mess" cols="30" rows="5" placeholder="Để lại lời nhắn cho chúng tôi..."></textarea>
-                        <button class="btn btn-outline" value="submit">
+                        <button class="btn btn-outline">
                             gửi đi
                         </button>
                     </div>
@@ -791,8 +793,6 @@
             </div>
         </div>
     </footer>
-
-
     <!-- <div class="table-bottom">
         <div class="container">
             <div style="width: 100%; max-width: 1000px;">
@@ -875,6 +875,7 @@
             document.documentElement.scrollTop = 0;
         }
     </script>
+
 </body>
 
 </html>

@@ -121,9 +121,8 @@
                                                           flex-direction: row;
                                                           margin: 20px 0px 0px 0px;
                                                       }
-                                                      footer .contact .form-contact .title-form .input input {
-                                                          padding: 10px 41px;
-                                                      }
+                                                      footer .contact .form-contact .title-form .input input,
+                                                      padding: 10px 41px;
                                                   }
                                                   /* END  */
                                                   /* Iphone X dọc  */
