@@ -9,7 +9,6 @@
     /* overflow-x: hidden; */
 }
 
-
 p {
     font-weight: 300;
     color: #ffffff;
@@ -70,7 +69,8 @@ p {
     margin-bottom: 50px;
 }
 
-.banner .content .content-contact, p {
+.banner .content .content-contact,
+p {
     display: flex;
     color: #cacaca;
     font-size: 20px;
@@ -161,6 +161,7 @@ header .navigation li a:hover {
     color: #118575;
     transition: 1s;
 }
+
 
 /* giá bán căn hộ trong bảng  */
 
@@ -253,7 +254,9 @@ header .navigation li a:hover {
     background-color: green;
 }
 
+
 /* end giá bán căn hộ trong bảng  */
+
 
 /* giới thiệu không gian sống và tổng quan dự án  */
 
@@ -405,7 +408,8 @@ header .navigation li a:hover {
     line-height: 34px;
 }
 
-.introduce .overview-project .left-image ul .one, .two {
+.introduce .overview-project .left-image ul .one,
+.two {
     line-height: 26px !important;
 }
 
@@ -435,7 +439,9 @@ header .navigation li a:hover {
     font-weight: normal;
 }
 
+
 /* END giới giới không gian sống .. dự án  */
+
 
 /* vị trí đắt địa  */
 
@@ -472,7 +478,9 @@ header .navigation li a:hover {
     justify-content: flex-end;
 }
 
+
 /* END vị trí đắt đại  */
+
 
 /* sơ đồ  */
 
@@ -480,7 +488,8 @@ header .navigation li a:hover {
     background: #f8f8f8;
 }
 
-.sodo .left, .image {
+.sodo .left,
+.image {
     padding: 100px 28px;
 }
 
@@ -580,14 +589,10 @@ header .navigation li a:hover {
 .sodo .tab-content ul span {
     padding: 0px 9px;
 }
-.tab-2{
-   color: red;
-}
-.act {
-   color: blue;
-}
+
 
 /* end sơ đồ  */
+
 
 /* mặt bằng chung  */
 
@@ -667,7 +672,9 @@ header .navigation li a:hover {
     color: #118575;
 }
 
+
 /* end mặt bằng chung  */
+
 
 /* thiết kế căn hộ  */
 
@@ -729,7 +736,9 @@ header .navigation li a:hover {
     color: #043831;
 }
 
+
 /* END thiết kế căn hộ  */
+
 
 /* thiết kế tinh tế  */
 
@@ -808,7 +817,9 @@ header .navigation li a:hover {
     border: 1px solid #d7d7d7;
 }
 
+
 /* END thiết kế tinh tế  */
+
 
 /* hình ảnh */
 
@@ -867,7 +878,9 @@ header .navigation li a:hover {
     }
 }
 
+
 /* END  hình ảnh  */
+
 
 /* footer */
 
@@ -950,7 +963,9 @@ footer .contact .form-contact .title-form .input input::placeholder {
     font-style: normal;
 }
 
-footer .contact .form-contact .title-form .input input, textarea, button {
+footer .contact .form-contact .title-form .input input,
+textarea,
+button {
     padding: 10px 10px;
     margin: 8px 0px;
     border: 1px solid #FFFFFF;
@@ -959,7 +974,8 @@ footer .contact .form-contact .title-form .input input, textarea, button {
     outline: none;
 }
 
-footer .contact .form-contact .title-form .input input, textarea::placeholder {
+footer .contact .form-contact .title-form .input input,
+textarea::placeholder {
     color: #ffffff;
     font-weight: 300;
     font-size: 14px;
@@ -982,7 +998,9 @@ footer .contact .form-contact .title-form .btn {
     padding: 10px 0px;
 }
 
+
 /* END footer  */
+
 
 /* scroll to top  */
 
@@ -1006,7 +1024,9 @@ footer .contact .form-contact .title-form .btn {
     background-color: #555;
 }
 
-.table-botttom tr, th, td {
+.table-botttom tr,
+th,
+td {
     border: 1px solid;
 }
 
@@ -1016,5 +1036,6 @@ footer .contact .form-contact .title-form .btn {
 
 
 /* end scroll to top  */
+
 
 /* list hinh anh  */

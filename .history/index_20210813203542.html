@@ -19,7 +19,7 @@
         <div class="menuToggle" onclick="toggleMenu"></div>
         <ul class="navigation" id="toggle">
             <li><a href="index.html" onclick="toggleMenu">Trang chủ</a></li>
-            <li><a href="#tongquan" class="menu-tongquan" onclick="toggleMenu">Tổng quan</a></li>
+            <li><a href="#tongquan" onclick="toggleMenu">Tổng quan</a></li>
             <li><a href="#vitri" onclick="toggleMenu">Vị trí</a></li>
             <li><a href="#tienich" onclick="toggleMenu">Tiện ích</a></li>
             <li><a href="#duan" onclick="toggleMenu">Dự án</a></li>
@@ -650,70 +650,7 @@
             </div>
         </div>
     </section>
-    <section class="thietkecanho">
-        <div class="container">
-            <div class="title">
-                <h1>thiết kế căn hộ - <b>jamila khang điền</b></h1>
-                <img src="./image/gachgiua.png" alt="">
-            </div>
-            <div class="canho">
-                <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#canhoa">CĂN 1PN</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#canhob">CĂN 2PN</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#canhoc">CĂN 3PN</a>
-                    </li>
-                </ul>
-                <!-- show tab  -->
-                <div class="tab-content">
-                    <div id="canhoa" class="container tab-pane active"><br>
-                        <img src="./image/thietkecanho.png" alt="">
-                    </div>
-                    <div id="canhob" class="container tab-pane fade"><br>
-                        <img src="./image/thietkecanho.png" alt="">
-                    </div>
-                    <div id="canhoc" class="container tab-pane fade"><br>
-                        <img src="./image/thietkecanho.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-    <section class="thietketinhte">
-        <div class="container">
-            <div class="title">
-                <h1>thiết kế tinh tế <b>& hiện đại</b></h1>
-                <img src="./image/gachgiua.png" alt="">
-                <h6> Không gian sống thoải mái</h6>
-            </div>
-            <div class="border-1">
-                <div class="content content-1">
-                    <div class="img" style="background-image: url('./image/thietketinhte1.png');"></div>
-                    <p><b>Jamila Khang Điền</b> được quy hoạch một cách đồng bộ theo mô hình kiến trúc xanh và hiện đại
-                        của Châu Âu, đồng thời tạo nên sự giao thoa giữa không gian sống ở bên trong căn hộ và môi
-                        trường sống bên ngoài bằng môi trường sống
-                        xanh, Jamila Khang Điền hứa hẹn là một nơi sinh sống lý tưởng của nhiều gia đình.</p>
-                </div>
-                <div class="content content-2">
-                    <p>Phòng ngủ nhỏ được thiết kế giường queensize, tông màu trắng be sang trọng. Căn phòng toát lên vẻ
-                        đẹp tươi trẻ, tràn đầy sức sống với cách phối hợp những gam màu như trắng, nâu. Đồ dùng khiến
-                        không gian thêm phần sang trọng. Bức tường
-                        đầu giường tạo nên điểm nhấn cho không gian.</p>
-                    <div class="img" style="background-image: url('./image/thietketinhte2.png');"></div>
-
-                </div>
-            </div>
-            <div class="image">
-                <img src="./image/thietketinhtelogo.png" alt="">
-            </div>
-        </div>
-        </div>
-    </section>
+   
     <section class="hinhanh mt-5" id="hinhanh">
         <div class="container">
             <div class="title">
@@ -839,15 +776,13 @@
     <script>
         var nav_items = document.querySelectorAll(".nav-link");
         var nav_link = document.querySelector(".nav-link.active");
-        var tab2 = document.querySelector(".tab-2");
 
         nav_items.forEach((navs, index) => {
             navs.onclick = function() {
                 nav_link.classList.remove("active");
                 navs.classList.add("active");
-                tab2.classList.add("act");
             }
-        });
+        })
     </script>
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-double-up"></i></button>
     <script>

@@ -870,6 +870,14 @@
             document.documentElement.scrollTop = 0;
         }
     </script>
+    <script>
+        window.addEventListener("scroll", () =>{
+            
+            const tongquan = document.querySelector("#tongquan");
+            tongquan.classList.toggle("active", scrollY  === tongquan);
+           
+        });
+    </script>
 </body>
 
 </html>

@@ -870,6 +870,13 @@
             document.documentElement.scrollTop = 0;
         }
     </script>
+    <script>
+        window.addEventListener("scroll", () =>{
+            const component = document.querySelector(".phu");
+            const tongquan = document.querySelector("#tongquan");
+            component.classList.toggle("active", scrollY > 10)
+        });
+    </script>
 </body>
 
 </html>

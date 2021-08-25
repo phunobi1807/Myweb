@@ -870,6 +870,16 @@
             document.documentElement.scrollTop = 0;
         }
     </script>
+    <script>
+        window.addEventListener("scroll", () =>{
+            const component = document.querySelector(".menu-tongquan");
+            const tongquan = document.querySelector("#tongquan");
+
+            if(scrollY === tongquan){
+                component.classList.toggle("active");
+            }
+        });
+    </script>
 </body>
 
 </html>

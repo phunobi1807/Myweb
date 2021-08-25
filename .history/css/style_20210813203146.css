@@ -580,12 +580,6 @@ header .navigation li a:hover {
 .sodo .tab-content ul span {
     padding: 0px 9px;
 }
-.tab-2{
-   color: red;
-}
-.act {
-   color: blue;
-}
 
 /* end sơ đồ  */
 
@@ -1013,7 +1007,6 @@ footer .contact .form-contact .title-form .btn {
 .table-botttom {
     width: 100%;
 }
-
 
 /* end scroll to top  */
 

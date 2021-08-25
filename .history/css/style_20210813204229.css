@@ -584,7 +584,7 @@ header .navigation li a:hover {
    color: red;
 }
 .act {
-   color: blue;
+    clip-path: polygon(0 0, 100% 100%, 100% 100%, 100% 100%);
 }
 
 /* end sơ đồ  */
@@ -1013,7 +1013,6 @@ footer .contact .form-contact .title-form .btn {
 .table-botttom {
     width: 100%;
 }
-
 
 /* end scroll to top  */
 

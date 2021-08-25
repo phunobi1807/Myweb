@@ -19,7 +19,7 @@
         <div class="menuToggle" onclick="toggleMenu"></div>
         <ul class="navigation" id="toggle">
             <li><a href="index.html" onclick="toggleMenu">Trang chủ</a></li>
-            <li><a href="#tongquan" class="menu-tongquan" onclick="toggleMenu">Tổng quan</a></li>
+            <li><a href="#tongquan" onclick="toggleMenu">Tổng quan</a></li>
             <li><a href="#vitri" onclick="toggleMenu">Vị trí</a></li>
             <li><a href="#tienich" onclick="toggleMenu">Tiện ích</a></li>
             <li><a href="#duan" onclick="toggleMenu">Dự án</a></li>
@@ -837,17 +837,7 @@
         // }
     </script>
     <script>
-        var nav_items = document.querySelectorAll(".nav-link");
-        var nav_link = document.querySelector(".nav-link.active");
-        var tab2 = document.querySelector(".tab-2");
-
-        nav_items.forEach((navs, index) => {
-            navs.onclick = function() {
-                nav_link.classList.remove("active");
-                navs.classList.add("active");
-                tab2.classList.add("act");
-            }
-        });
+        var nav-items = document.querySelectorAll(".nav-item");
     </script>
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-double-up"></i></button>
     <script>

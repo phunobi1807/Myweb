@@ -1013,7 +1013,10 @@ footer .contact .form-contact .title-form .btn {
 .table-botttom {
     width: 100%;
 }
-
+.active 
+{
+   opacity: 0;
+}
 
 /* end scroll to top  */
 
